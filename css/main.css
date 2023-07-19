@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 200px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.nav {
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .left {
+    width: 20%;
+    height: 200px;
+}
+
+.nav .left img {
+    height: 170px;
+    margin-top: 20px;
+}
+
+.nav .right {
+    width: 80%;
+    height: 200px;
+}
+
+.nav .right .top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.nav .right .top a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.nav .right .top .con1{
+    margin-top: 15px;
+}
+
+
+#Location{
+    text-decoration: underline;
+    color: rgb(63, 63, 228);
+}
+
+.nav .right .top button{
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #ffbb0e;
+    border-radius: 10px;
+}
+
+.nav .right .bottom{
+    margin-top: 40px;
+}
+
+.nav .right .bottom a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.ban1{
+    height: 550px;
+    margin-top: 80px;
+}
+
+.banner1{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner1 .left img{
+    height: 450px;
+}
+
+.banner1 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner1 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner1 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner1 .right ul{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.banner1 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.ban2{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.banner2{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner2 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner2 .left img{
+    height: 450px;
+}
+
+.banner2 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner2 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner2 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner2 .right ul{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.banner2 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.ban3{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.banner3{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner3 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner3 .left img{
+    height: 450px;
+}
+
+.banner3 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner3 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner3 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner3 .right ul{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.banner3 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.ban4{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.banner4{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner4 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner4 .left img{
+    height: 450px;
+}
+
+.banner4 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner4 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner4 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner4 .right ul{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.banner4 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.ban5{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.banner5{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner5 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner5 .left img{
+    height: 450px;
+}
+
+.banner5 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner5 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner5 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner5 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.ban6{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.banner6{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner6 .left{
+    width: 65%;
+    height: 550px;
+}
+
+.banner6 .left img{
+    height: 450px;
+}
+
+.banner6 .right{
+    width: 32%;
+    height: 550px;
+}
+
+.banner6 .right h3{
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.banner6 .right p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.banner6 .right ul{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.banner6 .right button{
+    margin-top: 40px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #ffbb0e;
+    border: none;
+    border-radius: 10px;
+}
+
+.foot{
+    height: 700px;
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.foot .foot-{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot .foot- ul li{
+    line-height: 32px;
+   list-style: none;
+}
+
+.com{
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-bottom: 16px;
+}
+
+.media{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media img{
+    margin-right: 15px;
+    height: 40px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.pri{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.pri .pri-{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    gap: 16px;
+}
+
+.pri .pri2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding-left: 5rem;
+}
+
+.pri .pri2 img{
+    width: 8%;
+}
+
+.do{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    gap: 16px;
+} 
